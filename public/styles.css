@@ -82,9 +82,9 @@ html {
   }
 }
 
-.navbar-toggler {
-  width: 50px !important;
-  height: 3px !important;
+.navbar-toggler-icon {
+  height: 60px !important;
+  width: 70px !important;
 }
 
 @media screen and (min-width: 62em) {
