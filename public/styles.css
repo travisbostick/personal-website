@@ -66,14 +66,14 @@ html {
 
 @media screen and (min-width: 40em) {
   .name {
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 2vw !important;
   }
   .role {
-    font-size: 5rem;
+    font-size: 7rem;
   }
   .underline {
-    width: 29.5rem;
+    width: 41rem;
   }
 }
 
