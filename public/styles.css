@@ -33,9 +33,9 @@ html {
   font-family: 'SF Mono-Light';
 }
 
-.navbar-brand {
-  padding-top: 10px !important;
-  width: 60px;
+.navbar-toggler-icon {
+  height: 60px !important;
+  width: 70px !important;
 }
 
 @media screen and (min-width: 5em) {
@@ -49,6 +49,21 @@ html {
   .underline {
     width: 21rem;
   }
+  .icon {
+    height: 100px !important;
+    width: auto;
+    margin: 100px !important;
+  }
+  .footer {
+    padding-bottom: 300px !important;
+  }
+  .navbar {
+    margin-top: 25px !important;
+    margin-right: 50px !important;
+  }
+  .navbar-brand {
+    width: 100px;
+  }
 }
 
 @media screen and (min-width: 20em) {
@@ -61,6 +76,14 @@ html {
   }
   .underline {
     width: 23.6rem;
+  }
+  .footer {
+    padding-bottom: 300px !important;
+  }
+  .icon {
+    height: 80px !important;
+    width: auto;
+    margin: 80px !important;
   }
 }
 
@@ -80,16 +103,29 @@ html {
     padding-left: 1vw;
     font-family: 'SF Mono-Light';
   }
-}
-
-.navbar-toggler-icon {
-  height: 60px !important;
-  width: 70px !important;
+  .footer {
+    padding-bottom: 100px !important;
+  }
 }
 
 @media screen and (min-width: 62em) {
   .nav-link {
     font-size: 1.2rem;
+  }
+  .footer {
+    padding-bottom: 1rem !important;
+  }
+  .icon {
+    height: 40px !important;
+    width: auto !important;
+    margin: 30px !important;
+  }
+  .navbar {
+    margin-top: 0px !important;
+  }
+  .navbar-brand {
+    padding-top: 10px !important;
+    width: 60px;
   }
 }
 
