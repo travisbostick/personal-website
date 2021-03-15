@@ -8,8 +8,8 @@ function NavBar() {
       <button
         className='navbar-toggler'
         type='button'
-        data-toggle='collapse'
-        data-target='#navbarToggler'
+        data-bs-toggle='collapse'
+        data-bs-target='#navbarToggler'
       >
         <span className='navbar-toggler-icon'></span>
       </button>
@@ -28,9 +28,6 @@ function NavBar() {
           <NavLink className='nav-link' to='video'>
             video
           </NavLink>
-          {/* <NavLink className='nav-link' to='contact'>
-            contact
-          </NavLink> */}
         </ul>
       </div>
     </nav>
