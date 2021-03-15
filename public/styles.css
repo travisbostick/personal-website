@@ -1,0 +1,241 @@
+body,
+html {
+  background-color: #272c34 !important;
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'iCiel Medium';
+  src: url('./iCiel\ Medium.ttf');
+}
+
+@font-face {
+  font-family: 'SF Mono-Light';
+  src: url('./SF-Mono-Light.otf');
+}
+
+.underline > h1 {
+  height: 10px;
+}
+
+.navbar {
+  margin: 0rem 2rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding-left: 1vw;
+  font-family: 'SF Mono-Light';
+}
+
+.navbar-brand {
+  padding-top: 10px !important;
+  width: 60px;
+}
+
+@media screen and (min-width: 5em) {
+  .name {
+    font-size: 2.7vw;
+    line-height: 2vw !important;
+  }
+  .role {
+    font-size: 8vw;
+  }
+  .underline {
+    width: 59vw;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .name {
+    font-size: 1.5vw;
+    line-height: 0.5vw !important;
+  }
+  .role {
+    font-size: 6.5vw;
+  }
+  .underline {
+    width: 48vw;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .name {
+    font-size: 1vw;
+    line-height: 0.1vw !important;
+  }
+  .role {
+    font-size: 4.8vw;
+  }
+  .underline {
+    width: 35vw;
+  }
+}
+
+.name {
+  color: #9b9b9b !important;
+  letter-spacing: 0.5vw !important;
+  white-space: nowrap;
+  line-height: 1.2vw;
+  padding-left: 0.5vw !important;
+}
+
+.role {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
+
+.nameCard {
+  font-family: 'iCiel Medium';
+}
+
+.container-fluid {
+  padding: 13% 15%;
+}
+
+.content {
+  margin-top: 4%;
+  text-align: center;
+  margin-bottom: 5rem;
+  padding-bottom: 6rem;
+}
+
+.project-name {
+  font-family: 'iCiel Medium';
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.plus {
+  color: #9b9b9b !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.35rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.link {
+  color: white !important;
+}
+
+.underline {
+  text-align: center;
+  display: block;
+  border-bottom: 2px solid #9b9b9b;
+}
+
+.external-link {
+  color: white;
+}
+
+.external-link:hover {
+  color: #9b9b9b;
+}
+
+.software {
+  margin: 3rem 8rem;
+}
+
+.project-cover {
+  width: 100%;
+  height: 80%;
+  background: #1b58c0;
+  transition: background 0.2s;
+}
+
+.project {
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.project:hover {
+  opacity: 1;
+}
+
+.project-link {
+  margin: 0;
+}
+
+.big-image {
+  width: 100%;
+  height: auto;
+}
+
+.pbot-account {
+  height: 20rem;
+}
+
+.pbot-tweet {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home {
+  padding-top: 7vw;
+}
+
+.icon {
+  color: white;
+  height: 40px;
+  width: auto;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.page {
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  text-align: center;
+}
