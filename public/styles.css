@@ -40,40 +40,66 @@ html {
 
 @media screen and (min-width: 5em) {
   .name {
-    font-size: 2.7vw;
+    font-size: 1.4rem;
     line-height: 2vw !important;
   }
   .role {
     font-size: 8vw;
   }
   .underline {
-    width: 47vw;
+    width: 21rem;
   }
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 20em) {
   .name {
-    font-size: 1.5vw;
+    font-size: 1.4rem;
+    line-height: 2vw !important;
+  }
+  .role {
+    font-size: 4rem;
+  }
+  .underline {
+    width: 23.6rem;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .name {
+    font-size: 1.4rem;
+    line-height: 2vw !important;
+  }
+  .role {
+    font-size: 5rem;
+  }
+  .underline {
+    width: 29.5rem;
+  }
+}
+
+@media screen and (min-width: 70em) {
+  .name {
+    font-size: 1.7rem !important;
     line-height: 0.5vw !important;
   }
   .role {
-    font-size: 6.5vw;
+    font-size: 7rem;
   }
   .underline {
-    width: 38.5vw;
+    width: 41rem;
   }
 }
 
-@media screen and (min-width: 80em) {
+@media screen and (min-width: 100em) {
   .name {
     font-size: 1vw;
     line-height: 0.1vw !important;
   }
   .role {
-    font-size: 4.8vw;
+    font-size: 10rem;
   }
   .underline {
-    width: 28.3vw;
+    width: 59rem;
   }
 }
 
