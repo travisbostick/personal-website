@@ -4,7 +4,9 @@ import { NavLink } from 'react-router-dom';
 function NavBar() {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark'>
-      <img className='navbar-brand' src='./images/logo.png' alt='logo' />
+      <a href='/'>
+        <img className='navbar-brand' src='./images/logo.png' alt='logo' />
+      </a>
       <button
         className='navbar-toggler'
         type='button'
