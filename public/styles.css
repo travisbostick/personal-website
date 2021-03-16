@@ -90,7 +90,7 @@ html {
     font-size: 5rem;
   }
   .nav-link {
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding-top: 20px;
   }
   .underline {
@@ -233,7 +233,7 @@ html {
     padding-bottom: 100px !important;
   }
   .icon {
-    height: 80px !important;
+    height: 60px !important;
     width: auto;
   }
 }
