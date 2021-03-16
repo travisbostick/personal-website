@@ -124,7 +124,7 @@ html {
   }
   .nav-link {
     font-size: 2rem;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .underline {
     width: 24rem;
@@ -156,7 +156,7 @@ html {
   }
   .nav-link {
     font-size: 2rem;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .underline {
     width: 21rem;
@@ -165,7 +165,7 @@ html {
     padding-bottom: 120px !important;
   }
   .icon {
-    height: 80px !important;
+    height: 60px !important;
     width: auto;
     margin: 20px !important;
   }
@@ -190,16 +190,17 @@ html {
     font-size: 2.8rem;
   }
   .nav-link {
-    font-size: 3rem;
+    font-size: 2rem;
+    padding-top: 7px !important;
   }
   .underline {
     width: 16.5rem;
   }
   .footer {
-    padding-bottom: 100px !important;
+    padding-bottom: 120px !important;
   }
   .icon {
-    height: 80px !important;
+    height: 60px !important;
     width: auto;
   }
   .content {
@@ -438,8 +439,8 @@ p {
 }
 
 .big-image {
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  height: auto !important;
 }
 
 .pbot-account {
