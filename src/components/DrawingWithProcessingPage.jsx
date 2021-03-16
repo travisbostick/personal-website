@@ -2,7 +2,7 @@ import React from 'react';
 
 function DrawingWithProcessingPage() {
   return (
-    <div className='mx-4 content'>
+    <div className='container content'>
       <p className='intro'>
         This project uses Processing to mimic a pond, allowing the user to
         create ripples with a stick or rock. This was made to explore the

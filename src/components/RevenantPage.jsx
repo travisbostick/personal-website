@@ -2,7 +2,7 @@ import React from 'react';
 
 function RevenantPage() {
   return (
-    <div className='mx-4 content'>
+    <div className='container content'>
       <div className='row mb-5'>
         <p className='col intro mt-auto mb-auto'>
           I programmed a fully functioning Game Boy game based on the movie{' '}

@@ -2,7 +2,7 @@ import React from 'react';
 
 function DataVisPage() {
   return (
-    <div className='mx-4 content'>
+    <div className='container content'>
       <p className='intro'>
         This project explores the way data can be visualized and interacted
         with. Using a very large data set of images taken by specific people at

@@ -2,7 +2,7 @@ import React from 'react';
 
 function PronounceBotPage() {
   return (
-    <div className='mx-4 content'>
+    <div className='container content'>
       <div className='row mx-3 mb-4'>
         <div className='col mb-2'>
           <img

@@ -3,7 +3,7 @@ import YouTube from 'react-youtube';
 
 function NoneOfTheAbovePage() {
   return (
-    <div className='mx-4 content'>
+    <div className='container content'>
       <h1 className='mb-3'>
         <i>None of the Above</i>
       </h1>
