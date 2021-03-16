@@ -12,18 +12,18 @@ function Navigation() {
       <Navbar.Toggle aria-controls='responsive-navbar-nav' />
       <Navbar.Collapse id='responsive-navbar-nav'>
         <Nav className='ml-auto'>
-          <Nav.Link className='nav-link' href='/'>
+          <NavLink className='nav-link' exact to='/'>
             home
-          </Nav.Link>
-          <Nav.Link className='nav-link' href='/software'>
+          </NavLink>
+          <NavLink className='nav-link' to='/software'>
             software
-          </Nav.Link>
-          <Nav.Link className='nav-link' href='/sheet-music'>
+          </NavLink>
+          <NavLink className='nav-link' to='/sheet-music'>
             sheet music
-          </Nav.Link>
-          <Nav.Link className='nav-link' href='/video'>
+          </NavLink>
+          <NavLink className='nav-link' to='/video'>
             video
-          </Nav.Link>
+          </NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
