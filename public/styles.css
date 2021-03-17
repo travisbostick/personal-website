@@ -89,10 +89,6 @@ html {
   .role {
     font-size: 5rem;
   }
-  .nav-link {
-    font-size: 2rem;
-    padding-top: 20px;
-  }
   .underline {
     width: 29.5rem;
   }
@@ -111,6 +107,13 @@ html {
   }
   .intro {
     font-size: 1.7rem !important;
+  }
+}
+
+@media (max-width: 766px) {
+  .nav-link {
+    font-size: 2rem;
+    padding-top: 20px;
   }
 }
 
