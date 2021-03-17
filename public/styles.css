@@ -17,8 +17,8 @@ html {
 
 @media (max-width: 10000px) {
   .name {
-    font-size: 1.5rem;
-    line-height: 2vw !important;
+    font-size: 1.7rem;
+    line-height: 1rem !important;
   }
   .role {
     font-size: 7rem;
@@ -38,8 +38,8 @@ html {
 
 @media (max-width: 2500px) {
   .name {
-    font-size: 1.5rem;
-    line-height: 2vw !important;
+    font-size: 1.7rem;
+    line-height: 1rem !important;
   }
   .role {
     font-size: 7rem;
@@ -64,6 +64,9 @@ html {
   }
   .role {
     font-size: 6rem;
+  }
+  .col-md-2 {
+    width: 10% !important;
   }
   .nav-link {
     font-size: 1.2rem;
