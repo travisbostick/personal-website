@@ -84,10 +84,8 @@ html {
     margin: 20px 70px !important;
   }
   .content {
-    margin-left: 80px !important;
-    margin-right: 80px !important;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     padding-bottom: 150px !important;
   }
 }
@@ -109,8 +107,8 @@ html {
     margin: 70px !important;
   }
   .content {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     padding-bottom: 180px !important;
   }
   .container {
@@ -126,12 +124,12 @@ html {
 
 @media (max-width: 766px) {
   .nav-link {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding-top: 30px;
   }
   .content {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
@@ -144,7 +142,6 @@ html {
     font-size: 4rem;
   }
   .nav-link {
-    font-size: 1.6rem;
     padding-top: 20px;
   }
   .underline {
@@ -158,8 +155,8 @@ html {
     width: auto;
   }
   .content {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     padding-bottom: 300px !important;
   }
   .intro {
@@ -264,7 +261,7 @@ html {
 }
 
 .nav-link {
-  padding-left: 1vw;
+  /* padding-left: 1vw; */
   font-family: 'SF Mono-Light';
 }
 
