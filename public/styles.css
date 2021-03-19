@@ -15,6 +15,10 @@ html {
   src: url('./SF-Mono-Light.otf');
 }
 
+.nav-collapse {
+  text-align: right !important;
+}
+
 @media (max-width: 10000px) {
   .name {
     font-size: 1.7rem;
@@ -82,8 +86,8 @@ html {
   .content {
     margin-left: 80px !important;
     margin-right: 80px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
     padding-bottom: 150px !important;
   }
 }
@@ -105,11 +109,8 @@ html {
     margin: 70px !important;
   }
   .content {
-    margin-left: 30px !important;
-    margin-right: 30px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: 100% !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
     padding-bottom: 180px !important;
   }
   .container {
@@ -125,12 +126,12 @@ html {
 
 @media (max-width: 766px) {
   .nav-link {
-    font-size: 2rem;
-    padding-top: 20px;
+    font-size: 1.7rem;
+    padding-top: 30px;
   }
   .content {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
   }
 }
 
@@ -143,8 +144,8 @@ html {
     font-size: 4rem;
   }
   .nav-link {
-    font-size: 2rem;
-    padding-top: 10px;
+    font-size: 1.6rem;
+    padding-top: 20px;
   }
   .underline {
     width: 24rem;
@@ -157,10 +158,8 @@ html {
     width: auto;
   }
   .content {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
     padding-bottom: 300px !important;
   }
   .intro {
@@ -175,10 +174,6 @@ html {
   }
   .role {
     font-size: 3.5rem;
-  }
-  .nav-link {
-    font-size: 2rem;
-    padding-top: 10px;
   }
   .underline {
     width: 21rem;
@@ -210,10 +205,6 @@ html {
   }
   .role {
     font-size: 3.3rem;
-  }
-  .nav-link {
-    font-size: 2rem;
-    padding-top: 7px !important;
   }
   .underline {
     width: 19.5rem;
@@ -247,9 +238,6 @@ html {
   }
   .role {
     font-size: 2.4rem;
-  }
-  .nav-link {
-    font-size: 3rem;
   }
   .underline {
     width: 14.2rem;

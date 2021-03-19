@@ -16,7 +16,7 @@ function Navigation() {
         <img className='navbar-brand' src='./images/logo.png' alt='logo' />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-      <Navbar.Collapse id='responsive-navbar-nav'>
+      <Navbar.Collapse className='nav-collapse' id='responsive-navbar-nav'>
         <Nav className='ml-auto'>
           <NavLink
             className='nav-link'
