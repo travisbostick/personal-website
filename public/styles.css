@@ -19,10 +19,6 @@ html {
   text-align: right !important;
 }
 
-.container {
-  box-sizing: content-box !important;
-}
-
 @media (max-width: 10000px) {
   .name {
     font-size: 1.7rem;
@@ -339,7 +335,7 @@ p {
 }
 
 .software {
-  margin: 3rem 8rem;
+  margin: auto !important;
 }
 
 .project-cover {
