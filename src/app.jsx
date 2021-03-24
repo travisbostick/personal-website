@@ -19,22 +19,27 @@ function App() {
     <div className='page'>
       <Router>
         <Navigation />
-        <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/software' component={SoftwarePage} />
-          <Route path='/sheet-music' component={SheetMusicPage} />
-          <Route path='/video' component={VideoPage} />
-          {/* <Route path='/contact' component={ContactPage} /> */}
-          <Route path='/the-revenant' component={RevenantPage} />
-          <Route path='/pronounce-bot' component={PronounceBotPage} />
-          <Route path='/data-vis' component={DataVisPage} />
-          <Route
-            path='/drawing-with-processing'
-            component={DrawingWithProcessingPage}
-          />
-          <Route path='/none-of-the-above' component={NoneOfTheAbovePage} />
-          <Route path='/promotional-videos' component={PromotionalVideosPage} />
-        </Switch>
+        <div className='container-fluid'>
+          <Switch>
+            <Route exact path='/' component={HomePage} />
+            <Route path='/software' component={SoftwarePage} />
+            <Route path='/sheet-music' component={SheetMusicPage} />
+            <Route path='/video' component={VideoPage} />
+            {/* <Route path='/contact' component={ContactPage} /> */}
+            <Route path='/the-revenant' component={RevenantPage} />
+            <Route path='/pronounce-bot' component={PronounceBotPage} />
+            <Route path='/data-vis' component={DataVisPage} />
+            <Route
+              path='/drawing-with-processing'
+              component={DrawingWithProcessingPage}
+            />
+            <Route path='/none-of-the-above' component={NoneOfTheAbovePage} />
+            <Route
+              path='/promotional-videos'
+              component={PromotionalVideosPage}
+            />
+          </Switch>
+        </div>
       </Router>
       <footer className='container-fluid footer'>
         <a href='https://github.com/travisbostick' target='_blank'>
