@@ -49,7 +49,7 @@ html {
     margin: 0 30px !important;
   }
   .homeCard {
-    margin-left: 30% !important;
+    margin: 0 25% !important;
   }
 }
 
@@ -269,10 +269,18 @@ html {
     height: 60px !important;
     width: auto;
   }
+  .home {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
   .homeCard {
     padding: 0 !important;
     margin: 0 auto !important;
-    width: 250px !important;
+    width: 14.2rem !important;
   }
   .container {
     margin: 0 auto !important;
