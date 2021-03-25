@@ -3,7 +3,7 @@ import Role from './Role';
 
 function NameCard() {
   return (
-    <div className='nameCard'>
+    <div className='nameCard container'>
       <h2 className='name'>TRAVIS BOSTICK</h2>
       <Role text='Developer' />
       <div>

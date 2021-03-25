@@ -19,6 +19,16 @@ html {
   text-align: right !important;
 }
 
+.home {
+  position: relative;
+  padding-top: 7vw;
+  margin: 0 auto !important;
+}
+
+.homeCard {
+  /* margin: 0 auto !important; */
+}
+
 @media (max-width: 10000px) {
   .name {
     font-size: 1.7rem;
@@ -37,6 +47,9 @@ html {
     height: 50px !important;
     width: auto;
     margin: 0 30px !important;
+  }
+  .homeCard {
+    margin-left: 30% !important;
   }
 }
 
@@ -61,6 +74,9 @@ html {
   }
   .col-md-2 {
     width: 23% !important;
+  }
+  .homeCard {
+    margin: 0 25% !important;
   }
 }
 
@@ -90,6 +106,10 @@ html {
     width: 95% !important;
     box-sizing: content-box !important;
     padding-bottom: 150px !important;
+  }
+  .homeCard {
+    margin: 0 auto !important;
+    width: 700px !important;
   }
 }
 
@@ -121,6 +141,10 @@ html {
   }
   .intro {
     font-size: 1.7rem !important;
+  }
+  .homeCard {
+    margin: 0 auto !important;
+    width: 495px !important;
   }
 }
 
@@ -159,6 +183,10 @@ html {
   .intro {
     font-size: 1.5rem !important;
   }
+  .homeCard {
+    margin: 0 auto !important;
+    width: 410px !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -185,6 +213,10 @@ html {
   }
   .intro {
     font-size: 1.5rem !important;
+  }
+  .homeCard {
+    margin: 0 auto !important;
+    width: 365px !important;
   }
 }
 
@@ -213,6 +245,10 @@ html {
   .intro {
     font-size: 1.5rem !important;
   }
+  .homeCard {
+    margin: 0 auto !important;
+    width: 325px !important;
+  }
 }
 
 @media (max-width: 350px) {
@@ -232,6 +268,14 @@ html {
   .icon {
     height: 60px !important;
     width: auto;
+  }
+  .homeCard {
+    padding: 0 !important;
+    margin: 0 auto !important;
+    width: 250px !important;
+  }
+  .container {
+    margin: 0 auto !important;
   }
 }
 
@@ -386,10 +430,6 @@ p {
   height: 100%;
 }
 
-.home {
-  padding-top: 7vw;
-}
-
 .icon {
   color: white;
   opacity: 0.6;
@@ -401,7 +441,7 @@ p {
 }
 
 .page {
-  position: relative;
+  /* position: relative; */
   min-height: 100vh;
 }
 
