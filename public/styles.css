@@ -240,7 +240,6 @@ html {
   }
   .footer {
     padding-bottom: 120px !important;
-    padding-left: 35px !important;
   }
   .icon {
     height: 60px !important;
@@ -280,17 +279,10 @@ html {
     padding: 0 !important;
     margin: 0 !important;
   }
-  .container-fluid {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
   .homeCard {
     padding: 0 !important;
     margin: 0 auto !important;
     width: 14.2rem !important;
-  }
-  .container {
-    margin: 0 auto !important;
   }
 }
 
@@ -305,7 +297,6 @@ html {
 .navbar-nav {
   margin-left: auto;
 }
-
 .nav-link {
   /* padding-left: 1vw; */
   font-family: 'SF Mono-Light';
@@ -469,4 +460,5 @@ p {
   padding: 1rem;
   text-align: center;
   text-align: center;
+  margin: 0 auto !important;
 }
