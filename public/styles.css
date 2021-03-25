@@ -80,6 +80,13 @@ html {
   }
 }
 
+@media (max-width: 2000px) {
+  .homeCard {
+    margin: 0 auto !important;
+    width: 800px !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .name {
     font-size: 1.5rem;
@@ -247,7 +254,7 @@ html {
   }
   .homeCard {
     margin: 0 auto !important;
-    width: 325px !important;
+    width: 338px !important;
   }
 }
 
