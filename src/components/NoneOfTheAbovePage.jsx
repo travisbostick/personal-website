@@ -4,7 +4,7 @@ import YouTube from 'react-youtube';
 function NoneOfTheAbovePage() {
   return (
     <div className='container content'>
-      <h1 className='mb-3'>
+      <h1 className='mb-3 doc-title'>
         <i>None of the Above</i>
       </h1>
       <p className='intro'>

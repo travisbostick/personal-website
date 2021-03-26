@@ -200,6 +200,9 @@ html {
   .footer {
     padding-bottom: 60px !important;
   }
+  .doc-title {
+    text-align: left;
+  }
   .icon {
     /* height: 80px !important; */
     width: auto;
