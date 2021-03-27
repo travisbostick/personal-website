@@ -44,9 +44,10 @@ html {
     width: 41rem;
   }
   .icon {
-    height: 50px !important;
+    height: 60px !important;
     width: auto;
     margin: 0 30px !important;
+    margin-bottom: 5px !important;
   }
   .homeCard {
     margin: 0 25% !important;
