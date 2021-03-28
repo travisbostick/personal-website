@@ -34,6 +34,9 @@ html {
     font-size: 1.7rem;
     line-height: 1rem !important;
   }
+  .software {
+    margin: 0 2% !important;
+  }
   .role {
     font-size: 7rem;
   }
@@ -42,6 +45,9 @@ html {
   }
   .underline {
     width: 41rem;
+  }
+  .intro {
+    font-size: 1.8rem !important;
   }
   .icon {
     height: 60px !important;
@@ -408,9 +414,9 @@ p {
   color: #9b9b9b;
 }
 
-.software {
+/* .software {
   margin: auto !important;
-}
+} */
 
 .project-cover {
   width: 100%;
