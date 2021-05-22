@@ -10,7 +10,7 @@ function SheetMusicPage() {
       </p>
       <p className='intro'>
         Last year I started uploading my transcriptions online on Musescore,
-        where they already have over 30,000 views.
+        where they already have over 40,000 views.
       </p>
       <div className='intro link'>
         <a
