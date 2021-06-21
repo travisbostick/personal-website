@@ -2,6 +2,11 @@ const img_dir = './images/projects/';
 
 const projects = [
   {
+    name: 'IQBank',
+    path: 'iqbank',
+    cover_img_url: img_dir + 'iqbank/cover.png'
+  },
+  {
     name: 'The Revenant Game Boy Game',
     path: 'the-revenant',
     cover_img_url: img_dir + 'revenant game/cover.png'
@@ -10,6 +15,11 @@ const projects = [
     name: '@PronounceBot',
     path: 'pronounce-bot',
     cover_img_url: img_dir + 'pronouncebot/cover.png'
+  },
+  {
+    name: 'Goal Tracking Tools',
+    path: 'goal-tracking-tools',
+    cover_img_url: img_dir + 'goal tracking tools/cover.png'
   },
   {
     name: 'Interactive Data Visualization',

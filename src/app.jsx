@@ -7,6 +7,8 @@ import SheetMusicPage from './components/SheetMusicPage';
 import RevenantPage from './components/RevenantPage';
 import PronounceBotPage from './components/PronounceBotPage';
 import DataVisPage from './components/DataVisPage';
+import IQBankPage from './components/IQBankPage';
+import GoalTrackingToolsPage from './components/GoalTrackingToolsPage';
 import DrawingWithProcessingPage from './components/DrawingWithProcessingPage';
 import VideoPage from './components/VideoPage';
 import NoneOfTheAbovePage from './components/NoneOfTheAbovePage';
@@ -26,8 +28,13 @@ function App() {
             <Route path='/sheet-music' component={SheetMusicPage} />
             <Route path='/video' component={VideoPage} />
             {/* <Route path='/contact' component={ContactPage} /> */}
+            <Route path='/iqbank' component={IQBankPage} />
             <Route path='/the-revenant' component={RevenantPage} />
             <Route path='/pronounce-bot' component={PronounceBotPage} />
+            <Route
+              path='/goal-tracking-tools'
+              component={GoalTrackingToolsPage}
+            />
             <Route path='/data-vis' component={DataVisPage} />
             <Route
               path='/drawing-with-processing'
