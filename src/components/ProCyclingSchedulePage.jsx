@@ -24,7 +24,7 @@ function ProCyclingSchedulePage() {
           <a href='https://developer.sportradar.com'> Sportradar API</a> and I'm
           using{' '}
           <a href='https://firebase.google.com/docs/firestore'>
-            Firebase Firestore
+            Cloud Firestore
           </a>{' '}
           for the database.
         </p>
