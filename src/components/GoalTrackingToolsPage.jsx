@@ -2,7 +2,7 @@ import React from 'react';
 
 function GoalTrackingToolsPage() {
   return (
-    <div className='container content'>
+    <div className='container content mt-1'>
       <p className='intro'>
         I really enjoy experimenting with different ways to automate the way I
         track my habits. I've found{' '}

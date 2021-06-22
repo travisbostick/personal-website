@@ -30,6 +30,10 @@ function RevenantPage() {
         src='./images/projects/revenant game/instructions.png'
         alt='Gameplay'
       />
+      <p className='intro'>
+        Code can be found{' '}
+        <a href='https://github.com/travisbostick/the-revenant-game'>here</a>.
+      </p>
     </div>
   );
 }

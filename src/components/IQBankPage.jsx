@@ -2,7 +2,7 @@ import React from 'react';
 
 function IQBankPage() {
   return (
-    <div className='container content'>
+    <div className='container content mt-1'>
       <div className='row mb-5'>
         <p className='col intro mt-auto mb-auto'>
           I designed and did most of the development for <i>IQBank</i>, which is

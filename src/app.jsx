@@ -8,6 +8,7 @@ import RevenantPage from './components/RevenantPage';
 import PronounceBotPage from './components/PronounceBotPage';
 import DataVisPage from './components/DataVisPage';
 import IQBankPage from './components/IQBankPage';
+import ProCyclingSchedulePage from './components/ProCyclingSchedulePage';
 import GoalTrackingToolsPage from './components/GoalTrackingToolsPage';
 import DrawingWithProcessingPage from './components/DrawingWithProcessingPage';
 import VideoPage from './components/VideoPage';
@@ -29,6 +30,10 @@ function App() {
             <Route path='/video' component={VideoPage} />
             {/* <Route path='/contact' component={ContactPage} /> */}
             <Route path='/iqbank' component={IQBankPage} />
+            <Route
+              path='/pro-cycling-schedule'
+              component={ProCyclingSchedulePage}
+            />
             <Route path='/the-revenant' component={RevenantPage} />
             <Route path='/pronounce-bot' component={PronounceBotPage} />
             <Route

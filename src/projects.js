@@ -7,6 +7,11 @@ const projects = [
     cover_img_url: img_dir + 'iqbank/cover.png'
   },
   {
+    name: 'Pro Cycling Schedule',
+    path: 'pro-cycling-schedule',
+    cover_img_url: img_dir + 'pro cycling schedule/cover.png'
+  },
+  {
     name: 'The Revenant Game Boy Game',
     path: 'the-revenant',
     cover_img_url: img_dir + 'revenant game/cover.png'
