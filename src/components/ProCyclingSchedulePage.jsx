@@ -11,7 +11,11 @@ function ProCyclingSchedulePage() {
           </a>{' '}
           is a mess. I wanted to create a far superior interface for cycling
           fans to know when the big upcoming races are happening. So I created a
-          web app to do exactly that.
+          web app to do exactly that. It can be found at{' '}
+          <a href='https://www.procyclingschedule.com'>
+            procyclingschedule.com
+          </a>
+          .
         </p>
         <img
           className='big-image'
@@ -27,6 +31,10 @@ function ProCyclingSchedulePage() {
             Cloud Firestore
           </a>{' '}
           for the database.
+        </p>
+        <p className='intro'>
+          It's still very much a work in progress and I plan to continue
+          improving its design and functions.
         </p>
         <p className='intro'>
           Code can be found{' '}
