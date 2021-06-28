@@ -38,6 +38,10 @@ function IQBankPage() {
         />
       </div>
       <p className='intro'>
+        Continuous integration was implemented in this project along with unit
+        tests for the front and back end.
+      </p>
+      <p className='intro'>
         This project was built using React, Hooks, NodeJS, Express, MongoDB,
         React Testing Library, Auth0, DraftJS, SemanticUI, Bootstrap, and React
         Table.
