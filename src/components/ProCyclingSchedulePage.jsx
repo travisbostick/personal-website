@@ -23,10 +23,9 @@ function ProCyclingSchedulePage() {
           alt='calendar image'
         />
         <p className='intro'>
-          The calendar is made in <a href='https://reactjs.org'>React</a>. I
-          initially built an entire calendar from scratch but am now using the{' '}
-          <a href='https://fullcalendar.io'>FullCalendar</a> framework to
-          display the events. The data comes from the{' '}
+          The calendar is made in <a href='https://reactjs.org'>React</a> using
+          the <a href='https://fullcalendar.io'>FullCalendar</a> framework for
+          the calendar. The data comes from the{' '}
           <a href='https://developer.sportradar.com'> Sportradar API</a> and I'm
           using{' '}
           <a href='https://firebase.google.com/docs/firestore'>
