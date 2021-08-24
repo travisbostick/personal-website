@@ -23,10 +23,14 @@ function ProCyclingSchedulePage() {
           alt='calendar image'
         />
         <p className='intro'>
-          The calendar is made in <a href='https://reactjs.org'>React</a> using
+          The front end is made in <a href='https://reactjs.org'>React</a> using
           the <a href='https://fullcalendar.io'>FullCalendar</a> framework for
-          the calendar. There filtering features for men's and women's races and
-          race details are displayed when hovering over events.
+          the calendar. There are filtering features for men's and women's races
+          and event details are displayed when hovering over events.
+        </p>
+        <p className='intro'>
+          The back end is made using Node.js and Express and the site is hosted
+          on Heroku.
         </p>
         <p className='intro'>
           It's still very much a work in progress and I plan to continue
