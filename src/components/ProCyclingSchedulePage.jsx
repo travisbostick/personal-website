@@ -25,13 +25,8 @@ function ProCyclingSchedulePage() {
         <p className='intro'>
           The calendar is made in <a href='https://reactjs.org'>React</a> using
           the <a href='https://fullcalendar.io'>FullCalendar</a> framework for
-          the calendar. The data comes from the{' '}
-          <a href='https://developer.sportradar.com'> Sportradar API</a> and I'm
-          using{' '}
-          <a href='https://firebase.google.com/docs/firestore'>
-            Cloud Firestore
-          </a>{' '}
-          for the database.
+          the calendar. There filtering features for men's and women's races and
+          race details are displayed when hovering over events.
         </p>
         <p className='intro'>
           It's still very much a work in progress and I plan to continue
