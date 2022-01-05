@@ -10,7 +10,12 @@ function VideoPage() {
         <div className='row'>
           {videos.map((project, index) => {
             project.key = index;
-            return <Project {...project} />;
+            return (
+              <Project
+                project={project}
+                image={{ url: project.cover_img_url }}
+              />
+            );
           })}
         </div>
       </FadeIn>

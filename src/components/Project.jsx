@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Project(project) {
+function Project(props) {
   return (
     <div className='project col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-3'>
-      <Link className='text-decoration-none' to={'/' + project.path}>
+      <Link className='text-decoration-none' to={'/' + props.project.path}>
         <img
           className='project-cover'
-          src={project.cover_img_url}
-          alt={project.name}
+          src={props.image.url}
+          alt={props.project.name}
         />
-        <h2 className='project-name'>{project.name}</h2>
+        <h2 className='project-name'>{props.project.name}</h2>
       </Link>
     </div>
   );
