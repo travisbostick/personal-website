@@ -1,12 +1,15 @@
 import React from 'react';
 import NameCard from '../components/NameCard';
+import FadeIn from 'react-fade-in';
 
 function HomePage() {
   return (
     <div>
       <div className='home'>
         <div className='homeCard'>
-          <NameCard />
+          <FadeIn transitionDuration={1000}>
+            <NameCard />
+          </FadeIn>
         </div>
       </div>
     </div>
