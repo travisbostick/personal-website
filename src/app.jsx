@@ -16,6 +16,7 @@ import NoneOfTheAbovePage from './pages/NoneOfTheAbovePage';
 import PromotionalVideosPage from './pages/PromotionalVideosPage';
 import { AiFillGithub } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
+import KeyCalendarPage from './pages/KeyCalendarPage';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path='/software' component={SoftwarePage} />
             <Route path='/sheet-music' component={SheetMusicPage} />
             <Route path='/video' component={VideoPage} />
+            <Route path='/keycalendar' component={KeyCalendarPage} />
             {/* <Route path='/contact' component={ContactPage} /> */}
             <Route path='/iqbank' component={IQBankPage} />
             <Route
