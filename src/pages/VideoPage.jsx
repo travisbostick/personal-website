@@ -1,16 +1,19 @@
 import React from 'react';
 import Project from '../components/Project';
 import videos from '../videos';
+import FadeIn from 'react-fade-in';
 
 function VideoPage() {
   return (
     <div className='software content'>
-      <div className='row'>
-        {videos.map((project, index) => {
-          project.key = index;
-          return <Project {...project} />;
-        })}
-      </div>
+      <FadeIn>
+        <div className='row'>
+          {videos.map((project, index) => {
+            project.key = index;
+            return <Project {...project} />;
+          })}
+        </div>
+      </FadeIn>
     </div>
   );
 }
