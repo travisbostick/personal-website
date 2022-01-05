@@ -2,6 +2,11 @@ const img_dir = './images/projects/';
 
 const projects = [
   {
+    name: 'KeyCalendar',
+    path: 'keycalendar',
+    cover_img_url: img_dir + 'keycalendar/cover.png'
+  },
+  {
     name: 'IQBank',
     path: 'iqbank',
     cover_img_url: img_dir + 'iqbank/cover.png'
