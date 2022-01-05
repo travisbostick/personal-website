@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../components/Project';
 import projects from '../projects';
-import moduleName from 'react-fade-in';
+import FadeIn from 'react-fade-in';
 
 function SoftwarePage() {
   return (
