@@ -6,6 +6,11 @@ html {
 }
 
 @font-face {
+  font-family: 'HKGrotesk';
+  src: url('./HKGrotesk-Regular.otf');
+}
+
+@font-face {
   font-family: 'iCiel Medium';
   src: url('./iCiel\ Medium.ttf');
 }
@@ -388,7 +393,8 @@ p {
 }
 
 .intro {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'HKGrotesk', sans-serif;
   font-size: 1.35rem;
   margin-bottom: 20px;
   text-align: left;
