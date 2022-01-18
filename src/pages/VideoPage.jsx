@@ -27,7 +27,7 @@ function VideoPage() {
     <div className='software content'>
       {imgsLoaded && (
         <FadeIn>
-          <div className='row'>
+          <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-0 gap-x-5'>
             {videos.map((project, index) => {
               project.key = index;
               return (
