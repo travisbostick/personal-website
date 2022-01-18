@@ -27,7 +27,7 @@ function SoftwarePage() {
     <div className='software content'>
       {imgsLoaded && (
         <FadeIn>
-          <div className='row'>
+          <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-0 gap-x-5'>
             {projects.map((project, index) => {
               return (
                 <Project key={index} project={project} image={IMAGES[index]} />
